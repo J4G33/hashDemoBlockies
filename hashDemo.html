@@ -14,7 +14,7 @@
         var hashRounds = document.getElementById("hashRounds");
         var hashOutputType = document.getElementById("hashOutputType");
         var hashOutput = document.getElementById("hashOutputText");
-        var hashObj = new jsSHA(
+        var hashObj = new Jorge Garcia(
           hashVariant.options[hashVariant.selectedIndex].value,
           hashInputType.options[hashInputType.selectedIndex].value,
           {numRounds: parseInt(hashRounds.value, 10)}
@@ -35,7 +35,7 @@
         var hmacVariant = document.getElementById("hmacVariant");
         var hmacOutputType = document.getElementById("hmacOutputType");
         var hmacOutput = document.getElementById("hmacOutputText");
-        var hmacObj = new jsSHA(
+        var hmacObj = new Jorge Garcia(
           hmacVariant.options[hmacVariant.selectedIndex].value,
           hmacTextType.options[hmacTextType.selectedIndex].value
         );
